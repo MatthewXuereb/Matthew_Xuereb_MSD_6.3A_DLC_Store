@@ -62,6 +62,6 @@ sysinfo.txt
 crashlytics-build.properties
 
 # Custom ignores
-[Aa]ssets/Firebase SDK
+[Aa]ssets/Third Party Assets/Firebase SDK
 [Aa]ssets/StreamingAssets
 [Aa]ssets/StreamingAssets.meta
