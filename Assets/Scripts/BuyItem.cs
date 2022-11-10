@@ -10,14 +10,18 @@ public class BuyItem : MonoBehaviour
     private bool _bought = false;
 
     [SerializeField]
-    private TextMeshProUGUI _text;
+    private string _title;
+
+    [SerializeField]
+    private TextMeshProUGUI _titleText, _buttonText;
 
     [SerializeField]
     private Button _button;
 
     private void Start()
     {
-        _text.text = _price.ToString();
+        _titleText.text = _title;
+        _buttonText.text = _price.ToString();
     }
 
     private void Update()
@@ -32,7 +36,7 @@ public class BuyItem : MonoBehaviour
     {
         if (StoreSceneData.numOfCoins - _price >= 0)
         {
-            _text.text = "Owned";
+            _buttonText.text = "Owned";
             _bought = true;
 
             _button.interactable = false;
