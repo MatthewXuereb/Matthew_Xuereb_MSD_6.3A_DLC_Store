@@ -363,6 +363,10 @@ PrefabInstance:
       propertyPath: _isBackground
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2492063454028133758, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: price
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_text
       value: 200
@@ -409,7 +413,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743674927831, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_text
-      value: Background 1
+      value: Background 2
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743674927831, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_fontSize
@@ -501,7 +505,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6720283744614894663, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Name
-      value: Background 1 Item
+      value: Background 2 Item
       objectReference: {fileID: 0}
     - target: {fileID: 6720283744881716107, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Texture
@@ -883,6 +887,14 @@ PrefabInstance:
       propertyPath: _isBackground
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2492063454028133758, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: id
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492063454028133758, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: price
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_text
       value: 200
@@ -929,7 +941,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743674927831, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_text
-      value: Background 4
+      value: Background 5
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743674927831, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_fontSize
@@ -1021,7 +1033,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6720283744614894663, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Name
-      value: Background 4 Item
+      value: Background 5 Item
       objectReference: {fileID: 0}
     - target: {fileID: 6720283744881716107, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Texture
@@ -1194,6 +1206,14 @@ PrefabInstance:
       propertyPath: _isBackground
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2492063454028133758, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: id
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492063454028133758, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: price
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_text
       value: 200
@@ -1240,7 +1260,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743674927831, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_text
-      value: Background 3
+      value: Background 4
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743674927831, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_fontSize
@@ -1332,7 +1352,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6720283744614894663, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Name
-      value: Background 3 Item
+      value: Background 4 Item
       objectReference: {fileID: 0}
     - target: {fileID: 6720283744881716107, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Texture
@@ -1500,6 +1520,14 @@ PrefabInstance:
     - target: {fileID: 1349110719560340017, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: _buttonId
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492063454028133758, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: id
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492063454028133758, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: price
+      value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_text
@@ -1778,6 +1806,14 @@ PrefabInstance:
       propertyPath: _isBackground
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2492063454028133758, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492063454028133758, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: price
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_text
       value: 200
@@ -1824,7 +1860,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743674927831, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_text
-      value: Background 2
+      value: Background 3
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743674927831, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_fontSize
@@ -1916,7 +1952,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6720283744614894663, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Name
-      value: Background 2 Item
+      value: Background 3 Item
       objectReference: {fileID: 0}
     - target: {fileID: 6720283744881716107, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Texture
@@ -2647,6 +2683,14 @@ PrefabInstance:
     - target: {fileID: 1349110719560340017, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: _buttonId
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492063454028133758, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: id
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492063454028133758, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: price
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_text
