@@ -5,28 +5,19 @@ using UnityEngine.UI;
 public class BuyItem : MonoBehaviour
 {
     [SerializeField]
-    private int _price;
+    private int _price, _id;
 
-    private bool _bought = false;
-
-    [SerializeField]
-    private string _title;
+    private bool _bought;
 
     [SerializeField]
-    private TextMeshProUGUI _titleText, _buttonText;
+    private TextMeshProUGUI _buttonText;
 
     [SerializeField]
     private Button _button;
 
-    private void Start()
-    {
-        _titleText.text = _title;
-        _buttonText.text = _price.ToString();
-    }
-
     private void Update()
     {
-        if (StoreSceneData.numOfCoins - _price < 0 && !_bought)
+        if (GameData.numOfCoins - _price < 0 && !_bought)
         {
             _button.interactable = false;
         }
@@ -34,7 +25,7 @@ public class BuyItem : MonoBehaviour
 
     public void BuyItemOnClick()
     {
-        if (StoreSceneData.numOfCoins - _price >= 0)
+        if (GameData.numOfCoins - _price >= 0)
         {
             _buttonText.text = "Owned";
             _bought = true;
@@ -44,8 +35,8 @@ public class BuyItem : MonoBehaviour
             colorBlock.disabledColor = Color.gray;
             _button.colors = colorBlock;
 
-            StoreSceneData.numOfCoins -= _price;
-            StoreSceneData.coinsText.text = StoreSceneData.numOfCoins.ToString();
+            GameData.numOfCoins -= _price;
+            GameData.coinsText.text = GameData.numOfCoins.ToString();
         }
     }
 }

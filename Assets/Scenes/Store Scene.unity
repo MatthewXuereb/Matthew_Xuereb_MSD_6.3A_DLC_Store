@@ -294,7 +294,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 33.8
+  m_fontSize: 51
   m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -358,6 +358,62 @@ PrefabInstance:
     - target: {fileID: 1349110719560340017, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: _title
       value: Background 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349110719560340017, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: _isBackground
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_text
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_fontSize
+      value: 20.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173888, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_Name
+      value: B1 Buy Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2083704373}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Buy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: BuyBackgroundImage, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743674927831, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_text
+      value: Background 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743674927831, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_fontSize
+      value: 12.1
       objectReference: {fileID: 0}
     - target: {fileID: 6720283744614894662, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Pivot.x
@@ -489,7 +545,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2083704370}
-  m_RootOrder: 2
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.19039513, y: 0.32074362}
   m_AnchorMax: {x: 0.873, y: 0.40600002}
@@ -543,7 +599,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 29.1
+  m_fontSize: 44.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -700,7 +756,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2083704370}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.19647416, y: 0.74758124}
   m_AnchorMax: {x: 0.873, y: 0.83241886}
@@ -754,7 +810,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 37.95
+  m_fontSize: 58.4
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -818,6 +874,66 @@ PrefabInstance:
     - target: {fileID: 1349110719560340017, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: _title
       value: Background 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349110719560340017, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: _buttonId
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349110719560340017, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: _isBackground
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_text
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_fontSize
+      value: 20.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173888, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_Name
+      value: B4 Buy Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2083704373}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Buy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: BuyBackgroundImage, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743674927831, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_text
+      value: Background 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743674927831, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_fontSize
+      value: 12.15
       objectReference: {fileID: 0}
     - target: {fileID: 6720283744614894662, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Pivot.x
@@ -1005,7 +1121,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 37.9
+  m_fontSize: 63.1
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1069,6 +1185,66 @@ PrefabInstance:
     - target: {fileID: 1349110719560340017, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: _title
       value: Background 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349110719560340017, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: _buttonId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349110719560340017, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: _isBackground
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_text
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_fontSize
+      value: 20.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173888, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_Name
+      value: B3 Buy Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2083704373}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Buy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: BuyBackgroundImage, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743674927831, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_text
+      value: Background 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743674927831, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_fontSize
+      value: 12.1
       objectReference: {fileID: 0}
     - target: {fileID: 6720283744614894662, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Pivot.x
@@ -1256,7 +1432,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 54.35
+  m_fontSize: 86.6
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1320,6 +1496,30 @@ PrefabInstance:
     - target: {fileID: 1349110719560340017, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: _title
       value: Particles
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349110719560340017, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: _buttonId
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_text
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_fontSize
+      value: 20.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173888, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_Name
+      value: P Buy Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743674927831, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_text
+      value: Particles
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743674927831, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_fontSize
+      value: 19.55
       objectReference: {fileID: 0}
     - target: {fileID: 6720283744614894662, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Pivot.x
@@ -1505,7 +1705,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 33.8
+  m_fontSize: 51
   m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1569,6 +1769,66 @@ PrefabInstance:
     - target: {fileID: 1349110719560340017, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: _title
       value: Background 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349110719560340017, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: _buttonId
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349110719560340017, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: _isBackground
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_text
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_fontSize
+      value: 20.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173888, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_Name
+      value: B2 Buy Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2083704373}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Buy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: BuyBackgroundImage, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743674927831, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_text
+      value: Background 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743674927831, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_fontSize
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6720283744614894662, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Pivot.x
@@ -1696,7 +1956,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1369905671}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -9.999911}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1704,8 +1964,8 @@ RectTransform:
   m_Father: {fileID: 1413623259}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.205338, y: 0.20126818}
-  m_AnchorMax: {x: 0.801669, y: 0.7987319}
+  m_AnchorMin: {x: 0.106000006, y: 0.20126818}
+  m_AnchorMax: {x: 0.702, y: 0.7987319}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1913,11 +2173,11 @@ RectTransform:
   - {fileID: 986471699}
   - {fileID: 2023863380}
   m_Father: {fileID: 2083704370}
-  m_RootOrder: 7
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.85149795}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 2.499878}
+  m_AnchoredPosition: {x: 0, y: 2.499939}
   m_SizeDelta: {x: 10, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1532507037
@@ -2026,6 +2286,136 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1918863865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1918863866}
+  - component: {fileID: 1918863869}
+  - component: {fileID: 1918863868}
+  - component: {fileID: 1918863867}
+  m_Layer: 5
+  m_Name: Settings Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1918863866
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918863865}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2083704370}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.776, y: 0.03533704}
+  m_AnchorMax: {x: 0.91700006, y: 0.113775305}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1918863867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918863865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1918863868}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2083704366}
+        m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
+        m_MethodName: LoadSceneById
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1918863868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918863865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: a8b2fb619e52dc1409f319f918cbb9d0, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1918863869
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918863865}
+  m_CullTransparentMesh: 1
 --- !u!1 &2023863379
 GameObject:
   m_ObjectHideFlags: 0
@@ -2087,6 +2477,8 @@ GameObject:
   - component: {fileID: 2083704367}
   - component: {fileID: 2083704366}
   - component: {fileID: 2083704371}
+  - component: {fileID: 2083704372}
+  - component: {fileID: 2083704373}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2180,16 +2572,17 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 693232361}
+  - {fileID: 1532507036}
   - {fileID: 821664128}
-  - {fileID: 593843977}
   - {fileID: 532092841}
   - {fileID: 1257652743}
   - {fileID: 983901519}
   - {fileID: 868345324}
-  - {fileID: 1532507036}
+  - {fileID: 593843977}
   - {fileID: 2111113273}
   - {fileID: 1039776608}
   - {fileID: 1413623259}
+  - {fileID: 1918863866}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2210,8 +2603,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96ec86eaf3c19c24e80e00c3829533bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _numOfCoins: 1000
   _coinsText: {fileID: 531571661}
+--- !u!114 &2083704372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083704365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67e42882f63f97f419bea8920436991f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _backgroundImage: {fileID: 693232362}
+--- !u!114 &2083704373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083704365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d57e80b6cc1f84498d19b63519a3022, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2111113272
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2226,6 +2643,30 @@ PrefabInstance:
     - target: {fileID: 1349110719560340017, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: _title
       value: Emojis
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349110719560340017, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: _buttonId
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_text
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_fontSize
+      value: 20.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173888, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_Name
+      value: E Buy Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743674927831, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_text
+      value: Emojis
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743674927831, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_fontSize
+      value: 20.85
       objectReference: {fileID: 0}
     - target: {fileID: 6720283744614894662, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Pivot.x
@@ -2322,7 +2763,7 @@ PrefabInstance:
     - target: {fileID: 6720283744881716107, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: dffef66376be4fa480fb02b19edbe903, type: 3}
+      objectReference: {fileID: 2800000, guid: ea16eb423bc7b3440affaa61058b0d3a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
 --- !u!224 &2111113273 stripped

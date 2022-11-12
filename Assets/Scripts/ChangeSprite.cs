@@ -11,8 +11,7 @@ public class ChangeSprite : MonoBehaviour
     [SerializeField] 
     private SpriteRenderer _spriteRenderer;
 
-    [SerializeField] 
-    private Color _spriteColor;
+    public Color spriteColor;
 
     private Sprite[] _spritesArray;
 
@@ -21,7 +20,7 @@ public class ChangeSprite : MonoBehaviour
         _spritesArray = Resources.LoadAll<Sprite>("Sprites/Face Emojis Tilemap");
 
         _spriteRenderer.sprite = _spritesArray[_i];
-        _spriteRenderer.color = _spriteColor;
+        _spriteRenderer.color = spriteColor;
     }
 
     private void Update()
