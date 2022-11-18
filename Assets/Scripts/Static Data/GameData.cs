@@ -1,88 +1,30 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public static class GameData
 {
     public static int numOfCoins = 1000;
-
-    public static Color emojiColour;
-
-    public static bool backgroun2Bought, backgroun3Bought, backgroun4Bought, backgroun5Bought = false;
-    public static bool emojisBought, particlesBought = false;
+    public static TextMeshProUGUI coinsText;
 
     public static bool emojisToggled, particlesToggled = false;
+    public static Color emojiColour;
 
     public static Sprite currentBackgroundImage;
 
-    public static TextMeshProUGUI coinsText;
+    public static StoreItemData[] items = new StoreItemData[6]
+    {
+        new StoreItemData(0, "Background 2", 200),
+        new StoreItemData(1, "Background 3", 200),
+        new StoreItemData(2, "Background 4", 200),
+        new StoreItemData(3, "Background 5", 200),
 
-    public static Item bgI2 = new Item();
-    public static Item bgI3 = new Item();
-    public static Item bgI4 = new Item();
-    public static Item bgI5 = new Item();
-
-    public static Item emojis = new Item();
-    public static Item particles = new Item();
-
+        new StoreItemData(4, "Emojis", 500),
+        new StoreItemData(5, "Particles", 800)
+    };
+    
     public static void UpdateItems()
     {
-        bgI2.UpdateItem();
-        bgI3.UpdateItem();
-        bgI4.UpdateItem();
-        bgI5.UpdateItem();
-
-        emojis.UpdateItem();
-        particles.UpdateItem();
-    }
-
-    public class Item
-    {
-        public int price = 0;
-
-        public bool bought = false;
-
-        public Button button;
-        public TextMeshProUGUI buttonText;
-
-        public void SetItem(int price, Button button, TextMeshProUGUI buttonText)
-        {
-            this.price = price;
-            this.button = button;
-            this.buttonText = buttonText;
-
-            UpdateItem();
-
-            if (bought)
-                SetToBought();
-        }
-
-        public void SetToBought()
-        {
-            buttonText.text = "Owned";
-
-            button.interactable = false;
-            ColorBlock colorBlock = button.colors;
-            colorBlock.disabledColor = Color.gray;
-            button.colors = colorBlock;
-
-            if (!bought)
-            {
-                numOfCoins -= price;
-                coinsText.text = numOfCoins.ToString();
-
-                bought = true;
-            }
-
-            UpdateItems();
-        }
-
-        public void UpdateItem()
-        {
-            if (numOfCoins - price < 0 && !bought)
-            {
-                button.interactable = false;
-            }
-        }
+        foreach (StoreItemData item in items)
+            item.UpdateItem();
     }
 }

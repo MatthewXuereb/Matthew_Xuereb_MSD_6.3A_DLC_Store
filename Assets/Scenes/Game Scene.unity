@@ -203,7 +203,6 @@ GameObject:
   - component: {fileID: 209572047}
   - component: {fileID: 209572046}
   - component: {fileID: 209572045}
-  - component: {fileID: 209572044}
   - component: {fileID: 209572049}
   m_Layer: 5
   m_Name: Canvas
@@ -212,18 +211,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &209572044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 209572043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7957e30845bb79140af05c3fbfb3ce43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &209572045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -317,10 +304,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 209572043}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67e42882f63f97f419bea8920436991f, type: 3}
+  m_Script: {fileID: 11500000, guid: ec21d27bc4e91134386e65c6203bc7cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _backgroundImage: {fileID: 1180896910}
+  _isStoreScene: 0
+  _coinsText: {fileID: 0}
 --- !u!4 &377374616 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 165726695771814752, guid: 8ece4d4019e6eb64f8d5471bff7ec3fc, type: 3}
@@ -584,7 +573,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _timeLife: 1
   _spriteRenderer: {fileID: 1112207411}
-  _spriteColor: {r: 1, g: 1, b: 1, a: 1}
+  spriteColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!4 &1112207413
 Transform:
   m_ObjectHideFlags: 0
@@ -760,8 +749,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 209572044}
-        m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
+      - m_Target: {fileID: 209572049}
+        m_TargetAssemblyTypeName: GameSceneManager, Assembly-CSharp
         m_MethodName: LoadSceneById
         m_Mode: 3
         m_Arguments:
@@ -897,7 +886,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 43.4
+  m_fontSize: 33.55
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1039,7 +1028,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 71.4
+  m_fontSize: 55.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

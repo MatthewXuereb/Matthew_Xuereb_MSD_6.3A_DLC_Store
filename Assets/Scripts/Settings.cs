@@ -21,23 +21,27 @@ public class Settings : MonoBehaviour
 
         switch (value)
         {
+            case 0:
+                SetBackground(value);
+                break;
             case 1:
-                if (GameData.bgI2.bought) 
+                if (GameData.items[0].bought) 
                     SetBackground(value);
                 break;
             case 2:
-                if (GameData.bgI3.bought)
+                if (GameData.items[1].bought)
                     SetBackground(value);
                 break;
             case 3:
-                if (GameData.bgI4.bought)
+                if (GameData.items[2].bought)
                     SetBackground(value);
                 break;
             case 4:
-                if (GameData.bgI5.bought)
+                if (GameData.items[3].bought)
                     SetBackground(value);
                 break;
             default:
+                SetBackground(0);
                 break;
         }
     }
@@ -49,7 +53,7 @@ public class Settings : MonoBehaviour
 
     public void ToggleEmojis()
     {
-        if (GameData.emojisBought)
+        if (GameData.items[4].bought)
             GameData.emojisToggled = _emojisToggle.isOn;
         else
             _emojisToggle.isOn = false;
@@ -57,7 +61,7 @@ public class Settings : MonoBehaviour
 
     public void ToggleParticles()
     {
-        if (GameData.particlesBought)
+        if (GameData.items[5].bought)
             GameData.particlesToggled = _particlesToggle.isOn;
         else
             _particlesToggle.isOn = false;
