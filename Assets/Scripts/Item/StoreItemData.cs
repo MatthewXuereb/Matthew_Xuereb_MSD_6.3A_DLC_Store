@@ -4,20 +4,22 @@ using UnityEngine.UI;
 
 public class StoreItemData
 {
-    public int id;
     public string name;
 
     public int price;
     public bool bought = false;
+
+    public string url;
 
     public TextMeshProUGUI titleText;
 
     public Button button;
     public TextMeshProUGUI buttonText;
 
-    public StoreItemData(int id, string name, int price)
+    public Sprite backgroundImage = null;
+
+    public StoreItemData(string name, int price)
     {
-        this.id = id;
         this.name = name;
         this.price = price;
     }
@@ -27,9 +29,6 @@ public class StoreItemData
         this.titleText = titleText;
         this.button = button;
         this.buttonText = buttonText;
-
-        this.titleText.text = name;
-        this.buttonText.text = price.ToString();
 
         UpdateItem();
 

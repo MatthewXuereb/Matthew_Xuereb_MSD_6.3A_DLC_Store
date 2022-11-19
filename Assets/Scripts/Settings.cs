@@ -13,7 +13,7 @@ public class Settings : MonoBehaviour
     private Toggle _emojisToggle, _particlesToggle;
 
     [SerializeField]
-    private Sprite[] _backgrounds;
+    private Sprite defualtBackground;
 
     public void ChangeBackgroundImageOnValueChange()
     {
@@ -21,39 +21,36 @@ public class Settings : MonoBehaviour
 
         switch (value)
         {
-            case 0:
-                SetBackground(value);
-                break;
             case 1:
-                if (GameData.items[0].bought) 
-                    SetBackground(value);
+                if (GameData.items["Background 2"].bought) 
+                    SetBackground(GameData.items["Background 2"].backgroundImage);
                 break;
             case 2:
-                if (GameData.items[1].bought)
-                    SetBackground(value);
+                if (GameData.items["Background 3"].bought)
+                    SetBackground(GameData.items["Background 3"].backgroundImage);
                 break;
             case 3:
-                if (GameData.items[2].bought)
-                    SetBackground(value);
+                if (GameData.items["Background 4"].bought)
+                    SetBackground(GameData.items["Background 4"].backgroundImage);
                 break;
             case 4:
-                if (GameData.items[3].bought)
-                    SetBackground(value);
+                if (GameData.items["Background 5"].bought)
+                    SetBackground(GameData.items["Background 5"].backgroundImage);
                 break;
             default:
-                SetBackground(0);
+                SetBackground(defualtBackground);
                 break;
         }
     }
-    private void SetBackground(int value)
+    private void SetBackground(Sprite background)
     {
-        GameData.currentBackgroundImage = _backgrounds[value];
+        GameData.currentBackgroundImage = background;
         _backgroundImage.sprite = GameData.currentBackgroundImage;
     }
 
     public void ToggleEmojis()
     {
-        if (GameData.items[4].bought)
+        if (GameData.items["Emojis"].bought)
             GameData.emojisToggled = _emojisToggle.isOn;
         else
             _emojisToggle.isOn = false;
@@ -61,7 +58,7 @@ public class Settings : MonoBehaviour
 
     public void ToggleParticles()
     {
-        if (GameData.items[5].bought)
+        if (GameData.items["Particles"].bought)
             GameData.particlesToggled = _particlesToggle.isOn;
         else
             _particlesToggle.isOn = false;

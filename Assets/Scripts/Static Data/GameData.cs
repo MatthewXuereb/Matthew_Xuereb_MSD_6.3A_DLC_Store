@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using System.Collections.Generic;
 
 public static class GameData
 {
@@ -11,20 +12,25 @@ public static class GameData
 
     public static Sprite currentBackgroundImage;
 
-    public static StoreItemData[] items = new StoreItemData[6]
+    public static Dictionary<string, StoreItemData> items = new Dictionary<string, StoreItemData>(6)
     {
-        new StoreItemData(0, "Background 2", 200),
-        new StoreItemData(1, "Background 3", 200),
-        new StoreItemData(2, "Background 4", 200),
-        new StoreItemData(3, "Background 5", 200),
+        { "Emojis", new StoreItemData("Item", 0) },
+        { "Particles", new StoreItemData("Item", 0) },
 
-        new StoreItemData(4, "Emojis", 500),
-        new StoreItemData(5, "Particles", 800)
+        { "Background 2", new StoreItemData("Item", 0) },
+        { "Background 3", new StoreItemData("Item", 0) },
+        { "Background 4", new StoreItemData("Item", 0) },
+        { "Background 5", new StoreItemData("Item", 0) }
     };
     
     public static void UpdateItems()
     {
-        foreach (StoreItemData item in items)
-            item.UpdateItem();
+        items["Background 2"].UpdateItem();
+        items["Background 3"].UpdateItem();
+        items["Background 4"].UpdateItem();
+        items["Background 5"].UpdateItem();
+
+        items["Emojis"].UpdateItem();
+        items["Particles"].UpdateItem();
     }
 }

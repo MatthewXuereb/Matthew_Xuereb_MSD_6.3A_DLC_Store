@@ -1194,7 +1194,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.4
+  m_fontSize: 32.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1329,7 +1329,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12.7
+  m_fontSize: 15.75
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1808,7 +1808,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 115.9
+  m_fontSize: 143.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1980,7 +1980,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12.7
+  m_fontSize: 15.75
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2282,7 +2282,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28.8
+  m_fontSize: 35.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2508,7 +2508,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12.7
+  m_fontSize: 15.75
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2999,7 +2999,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 11.65
+  m_fontSize: 14.4
   m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3452,7 +3452,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55.2
+  m_fontSize: 68.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3705,12 +3705,7 @@ MonoBehaviour:
   _dropdown: {fileID: 2028070834}
   _emojisToggle: {fileID: 850433027}
   _particlesToggle: {fileID: 679261701}
-  _backgrounds:
-  - {fileID: 21300000, guid: adadd1366ac57c546bfde7d3e511ebc5, type: 3}
-  - {fileID: 21300000, guid: 73fa32486c653bf41b4fcb5a8762f0fe, type: 3}
-  - {fileID: 21300000, guid: a9d950e71d58b724da77edf4d3bc3543, type: 3}
-  - {fileID: 21300000, guid: 0617cfe828c00354f8b9e0a1bb2abaa2, type: 3}
-  - {fileID: 21300000, guid: 3b343ec36f252854d9bcc6c0f6766fc4, type: 3}
+  defualtBackground: {fileID: 21300000, guid: adadd1366ac57c546bfde7d3e511ebc5, type: 3}
 --- !u!114 &1627418938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3924,7 +3919,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 42.15
+  m_fontSize: 54.25
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4096,7 +4091,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23.5
+  m_fontSize: 29.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4240,7 +4235,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 117.5
+  m_fontSize: 145.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

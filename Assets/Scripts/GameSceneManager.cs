@@ -33,6 +33,8 @@ public class GameSceneManager : MonoBehaviour
             GameData.coinsText = _coinsText;
 
             _coinsText.text = GameData.numOfCoins.ToString();
+
+            FirebaseStorageManager.DownloadManifest();
         }
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class StoreItem : MonoBehaviour
 {
     [SerializeField]
-    private int id;
+    private string name;
 
     [Header("Title"), SerializeField]
     private TextMeshProUGUI titleText;
@@ -17,16 +17,21 @@ public class StoreItem : MonoBehaviour
 
     void Awake()
     {
-        GameData.items[id].titleText = titleText;
+        GameData.items[name].button = button;
+        GameData.items[name].buttonText = buttonText;
 
-        GameData.items[id].button = button;
-        GameData.items[id].buttonText = buttonText;
-
-        GameData.items[id].SetItem(titleText, button, buttonText);
+        GameData.items[name].SetItem(titleText, button, buttonText);
     }
 
     public void BuyItemOnClick()
     {
-        GameData.items[id].SetToBought();
+        GameData.items[name].SetToBought();
+    }
+
+    public void BuyImageItemOnClick()
+    {
+        GameData.items[name].SetToBought();
+
+        FirebaseStorageManager.DownloadImage(name);
     }
 }

@@ -294,7 +294,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32.4
+  m_fontSize: 44.95
   m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -368,6 +368,10 @@ PrefabInstance:
       value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 3937937351872332383, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: name
+      value: Background 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937937351872332383, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: price
       value: 200
       objectReference: {fileID: 0}
@@ -400,6 +404,10 @@ PrefabInstance:
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyImageItemOnClick
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -516,7 +524,7 @@ PrefabInstance:
     - target: {fileID: 6720283744881716107, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: cecd23c0bc8b9314c889c8681f9efd74, type: 3}
+      objectReference: {fileID: 2800000, guid: a9440224c55623d468a89e98a8d3d5b5, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
 --- !u!224 &532092841 stripped
@@ -609,7 +617,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.8
+  m_fontSize: 39.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -820,7 +828,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36.2
+  m_fontSize: 51.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -905,6 +913,10 @@ PrefabInstance:
       propertyPath: id
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3937937351872332383, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: name
+      value: Background 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_text
       value: '0
@@ -928,12 +940,20 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 868345325}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyImageItemOnClick
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -1050,7 +1070,7 @@ PrefabInstance:
     - target: {fileID: 6720283744881716107, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: 0f019b531b2bbbc4aa9026ace904d2b5, type: 3}
+      objectReference: {fileID: 2800000, guid: 3532889532b578b4eaa8250d10a86e4c, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
 --- !u!224 &868345324 stripped
@@ -1058,6 +1078,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6720283744614894662, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
   m_PrefabInstance: {fileID: 868345323}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &868345325 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3937937351872332383, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+  m_PrefabInstance: {fileID: 868345323}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba1d2b4d4f337bd4d9e8e606672bd047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &959993197
 GameObject:
   m_ObjectHideFlags: 0
@@ -1145,7 +1176,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35.85
+  m_fontSize: 54.25
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1230,6 +1261,10 @@ PrefabInstance:
       propertyPath: id
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3937937351872332383, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: name
+      value: Background 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_text
       value: '0
@@ -1253,12 +1288,20 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 983901520}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyImageItemOnClick
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -1375,7 +1418,7 @@ PrefabInstance:
     - target: {fileID: 6720283744881716107, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: 9c8531bc1fa15224b8bdaad33a58a794, type: 3}
+      objectReference: {fileID: 2800000, guid: 06337e30e85ed964ca4cb315aa9dfd0b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
 --- !u!224 &983901519 stripped
@@ -1383,6 +1426,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6720283744614894662, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
   m_PrefabInstance: {fileID: 983901518}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &983901520 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3937937351872332383, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+  m_PrefabInstance: {fileID: 983901518}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba1d2b4d4f337bd4d9e8e606672bd047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &986471698
 GameObject:
   m_ObjectHideFlags: 0
@@ -1470,7 +1524,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 51.6
+  m_fontSize: 75.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1550,6 +1604,10 @@ PrefabInstance:
     - target: {fileID: 3937937351872332383, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: id
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937937351872332383, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: name
+      value: Particles
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_text
@@ -1757,7 +1815,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32.4
+  m_fontSize: 44.95
   m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1842,6 +1900,10 @@ PrefabInstance:
       propertyPath: id
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3937937351872332383, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: name
+      value: Background 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_text
       value: '0
@@ -1871,6 +1933,10 @@ PrefabInstance:
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyImageItemOnClick
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -1987,7 +2053,7 @@ PrefabInstance:
     - target: {fileID: 6720283744881716107, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: ab2aa858a44a7a94687e9bd0e1fe273d, type: 3}
+      objectReference: {fileID: 2800000, guid: 13de784c1cbf5d545b838ce49fad3eea, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
 --- !u!224 &1257652743 stripped
@@ -2688,6 +2754,10 @@ PrefabInstance:
       propertyPath: id
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3937937351872332383, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: name
+      value: Emojis
+      objectReference: {fileID: 0}
     - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_text
       value: '0
@@ -2805,7 +2875,7 @@ PrefabInstance:
     - target: {fileID: 6720283744881716107, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: ea16eb423bc7b3440affaa61058b0d3a, type: 3}
+      objectReference: {fileID: 2800000, guid: 0b9c6d1dca26a774f80944b794bd6dbe, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
 --- !u!224 &2111113273 stripped
