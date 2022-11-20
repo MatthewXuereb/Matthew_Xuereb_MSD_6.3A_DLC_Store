@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f5ef88a6f5d66464194390abd0840831
+  m_SerializeEntries:
+  - m_GUID: d458696d9f46e8e4dac921bbb3572745
+    m_Address: Assets/Addressables/Emoji.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8ece4d4019e6eb64f8d5471bff7ec3fc
+    m_Address: Assets/Addressables/Particles.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b7449da10c8c8d34e8f2b89377c6cb23, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 374f4bc94b836864f8ef2ec5c9e1a975, type: 2}
+    - {fileID: 11400000, guid: 76fad488b488dfb4198004d250488a91, type: 2}

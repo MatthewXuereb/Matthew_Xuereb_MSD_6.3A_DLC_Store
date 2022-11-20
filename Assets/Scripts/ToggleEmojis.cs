@@ -1,16 +1,28 @@
 using UnityEngine;
+using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
 
 public class ToggleEmojis : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject _emojis;
+    [SerializeField] 
+    private AssetReferenceGameObject _emojis;
 
     void Start()
     {
         if (GameData.emojisToggled)
         {
-            _emojis.SetActive(true);
-            _emojis.GetComponent<ChangeSprite>().spriteColor = GameData.emojiColour;
+            _emojis.LoadAssetAsync<GameObject>().Completed +=
+                (asyncOperationHandle) => {
+                    if (asyncOperationHandle.Status == AsyncOperationStatus.Succeeded)
+                    {
+                        GameObject emojiObject = Instantiate(asyncOperationHandle.Result);
+                        emojiObject.GetComponent<ChangeSprite>().spriteColor = GameData.emojiColour;
+                    }
+                    else
+                    {
+                        Debug.LogError("Failed to load!");
+                    }
+                };
         }
     }
 }
