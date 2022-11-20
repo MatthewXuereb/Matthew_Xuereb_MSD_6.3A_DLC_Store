@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -8,8 +9,6 @@ public class GameSceneManager : MonoBehaviour
     [SerializeField]
     private Image _backgroundImage;
 
-    [SerializeField]
-    private bool _isStoreScene = false;
     [Tooltip("Ignore if nor in store scene"), SerializeField]
     private TextMeshProUGUI _coinsText;
 
@@ -18,6 +17,7 @@ public class GameSceneManager : MonoBehaviour
         if (GameData.currentBackgroundImage != null)
             _backgroundImage.sprite = GameData.currentBackgroundImage;
 
+        SetWelcomeScene();
         SetStoreData();
     }
 
@@ -26,9 +26,23 @@ public class GameSceneManager : MonoBehaviour
         SceneManager.LoadScene(id, LoadSceneMode.Single);
     }
 
+    public void SetWelcomeScene()
+    {
+        if (SceneManager.GetActiveScene().buildIndex == 0)
+        {
+            if (!PlayerPrefs.HasKey("Id"))
+            {
+                string id = Guid.NewGuid().ToString();
+
+                PlayerPrefs.SetString("Id", id);
+                PlayerPrefs.Save();
+            }
+        }
+    }
+
     public void SetStoreData()
     {
-        if (_isStoreScene)
+        if (SceneManager.GetActiveScene().buildIndex == 1)
         {
             GameData.coinsText = _coinsText;
 
