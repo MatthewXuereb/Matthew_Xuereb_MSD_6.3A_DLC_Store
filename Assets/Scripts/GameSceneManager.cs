@@ -9,6 +9,9 @@ public class GameSceneManager : MonoBehaviour
     [SerializeField]
     private Image _backgroundImage;
 
+    [SerializeField]
+    private GameObject _privacyPanel;
+
     [Tooltip("Ignore if nor in store scene"), SerializeField]
     private TextMeshProUGUI _coinsText;
 
@@ -21,6 +24,12 @@ public class GameSceneManager : MonoBehaviour
         SetStoreData();
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyUp(KeyCode.Backspace))
+            PlayerPrefs.DeleteAll();
+    }
+
     public void LoadSceneById(int id)
     {
         SceneManager.LoadScene(id, LoadSceneMode.Single);
@@ -30,11 +39,16 @@ public class GameSceneManager : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().buildIndex == 0)
         {
+            if (PlayerPrefs.HasKey("PrivacyPolicyAccept"))
+                if (PlayerPrefs.GetInt("PrivacyPolicyAccept") == 1)
+                    _privacyPanel.SetActive(false);
+
             if (!PlayerPrefs.HasKey("Id"))
             {
                 string id = Guid.NewGuid().ToString();
 
                 PlayerPrefs.SetString("Id", id);
+                PlayerPrefs.SetInt("PrivacyPolicyAccept", 0);
                 PlayerPrefs.Save();
             }
         }
