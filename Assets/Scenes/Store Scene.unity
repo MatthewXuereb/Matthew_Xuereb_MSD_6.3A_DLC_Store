@@ -294,7 +294,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.95
+  m_fontSize: 106.8
   m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -391,16 +391,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 532092843}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
@@ -411,15 +411,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Buy
+      value: Mine
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: BuyBackgroundImage, Assembly-CSharp
+      value: MineData, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -532,6 +532,25 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6720283744614894662, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
   m_PrefabInstance: {fileID: 532092840}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &532092842 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6720283744614894663, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+  m_PrefabInstance: {fileID: 532092840}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &532092843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532092842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac360cd2c45b13a4797486743333d94f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionString: Bought Background 2
+  fileName: Background-2
 --- !u!1 &593843976
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,7 +636,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.3
+  m_fontSize: 95.6
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -828,7 +847,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 51.25
+  m_fontSize: 124.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -933,11 +952,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -946,7 +965,7 @@ PrefabInstance:
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 868345327}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
@@ -957,15 +976,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Buy
+      value: Mine
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: BuyBackgroundImage, Assembly-CSharp
+      value: MineData, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1083,12 +1102,31 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3937937351872332383, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
   m_PrefabInstance: {fileID: 868345323}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 868345326}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ba1d2b4d4f337bd4d9e8e606672bd047, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &868345326 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6720283744614894663, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+  m_PrefabInstance: {fileID: 868345323}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &868345327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868345326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac360cd2c45b13a4797486743333d94f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionString: Bought Background 5
+  fileName: Background-5
 --- !u!1 &959993197
 GameObject:
   m_ObjectHideFlags: 0
@@ -1176,7 +1214,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 54.25
+  m_fontSize: 144.9
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1281,11 +1319,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1294,7 +1332,7 @@ PrefabInstance:
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 983901522}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
@@ -1305,15 +1343,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Buy
+      value: Mine
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: BuyBackgroundImage, Assembly-CSharp
+      value: MineData, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1431,12 +1469,31 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3937937351872332383, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
   m_PrefabInstance: {fileID: 983901518}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 983901521}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ba1d2b4d4f337bd4d9e8e606672bd047, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &983901521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6720283744614894663, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+  m_PrefabInstance: {fileID: 983901518}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &983901522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983901521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac360cd2c45b13a4797486743333d94f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionString: Bought Background 4
+  fileName: Background-4
 --- !u!1 &986471698
 GameObject:
   m_ObjectHideFlags: 0
@@ -1524,7 +1581,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 75.3
+  m_fontSize: 191.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1622,6 +1679,34 @@ PrefabInstance:
     - target: {fileID: 6720283743634173888, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Name
       value: P Buy Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1039776610}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Mine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: MineData, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743674927831, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_text
@@ -1730,6 +1815,25 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6720283744614894662, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
   m_PrefabInstance: {fileID: 1039776607}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1039776609 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6720283744614894663, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+  m_PrefabInstance: {fileID: 1039776607}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1039776610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039776609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac360cd2c45b13a4797486743333d94f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionString: Bought Particles
+  fileName: Particles
 --- !u!1 &1084839734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1815,7 +1919,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.95
+  m_fontSize: 106.8
   m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1920,16 +2024,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1257652745}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
@@ -1940,15 +2044,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Buy
+      value: Mine
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: BuyBackgroundImage, Assembly-CSharp
+      value: MineData, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -2061,6 +2165,25 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6720283744614894662, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
   m_PrefabInstance: {fileID: 1257652742}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1257652744 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6720283744614894663, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+  m_PrefabInstance: {fileID: 1257652742}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1257652745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257652744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac360cd2c45b13a4797486743333d94f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionString: Bought Background 3
+  fileName: Background-3
 --- !u!1 &1369905671
 GameObject:
   m_ObjectHideFlags: 0
@@ -2721,7 +2844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _backgroundImage: {fileID: 693232362}
-  _isStoreScene: 1
+  _privacyPanel: {fileID: 0}
   _coinsText: {fileID: 531571661}
 --- !u!1001 &2111113272
 PrefabInstance:
@@ -2756,7 +2879,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3937937351872332383, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: name
-      value: Emojis
+      value: Emoji
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743403398569, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_text
@@ -2771,6 +2894,34 @@ PrefabInstance:
     - target: {fileID: 6720283743634173888, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Name
       value: E Buy Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2111113275}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Mine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: MineData, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720283743634173890, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6720283743674927831, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_text
@@ -2866,7 +3017,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6720283744614894663, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Name
-      value: Emojis Item
+      value: Emoji Item
       objectReference: {fileID: 0}
     - target: {fileID: 6720283744614894665, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
       propertyPath: m_Color.a
@@ -2883,3 +3034,22 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6720283744614894662, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
   m_PrefabInstance: {fileID: 2111113272}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2111113274 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6720283744614894663, guid: 29e2ea90177feae4d887bf134f293360, type: 3}
+  m_PrefabInstance: {fileID: 2111113272}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2111113275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111113274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac360cd2c45b13a4797486743333d94f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionString: Bought Emojis
+  fileName: Emojis

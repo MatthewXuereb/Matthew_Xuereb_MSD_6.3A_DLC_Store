@@ -50,7 +50,7 @@ public class Settings : MonoBehaviour
 
     public void ToggleEmojis()
     {
-        if (GameData.items["Emojis"].bought)
+        if (GameData.items["Emoji"].bought)
             GameData.emojisToggled = _emojisToggle.isOn;
         else
             _emojisToggle.isOn = false;

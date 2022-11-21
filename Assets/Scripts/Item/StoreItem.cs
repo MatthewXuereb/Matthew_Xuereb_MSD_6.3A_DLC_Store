@@ -26,6 +26,8 @@ public class StoreItem : MonoBehaviour
     public void BuyItemOnClick()
     {
         GameData.items[name].SetToBought();
+
+        FirebaseStorageManager.DownloadFile(name + "_Download.prefab", name + ".prefab");
     }
 
     public void BuyImageItemOnClick()

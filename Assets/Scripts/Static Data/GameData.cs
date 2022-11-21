@@ -14,7 +14,7 @@ public static class GameData
 
     public static Dictionary<string, StoreItemData> items = new Dictionary<string, StoreItemData>(6)
     {
-        { "Emojis", new StoreItemData("Item", 0) },
+        { "Emoji", new StoreItemData("Item", 0) },
         { "Particles", new StoreItemData("Item", 0) },
 
         { "Background 2", new StoreItemData("Item", 0) },
@@ -30,7 +30,7 @@ public static class GameData
         items["Background 4"].UpdateItem();
         items["Background 5"].UpdateItem();
 
-        items["Emojis"].UpdateItem();
+        items["Emoji"].UpdateItem();
         items["Particles"].UpdateItem();
     }
 }

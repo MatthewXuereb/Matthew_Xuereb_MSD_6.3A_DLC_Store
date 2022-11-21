@@ -1,6 +1,10 @@
+using System.Threading;
+using System;
+using System.Threading.Tasks;
 using System.Xml.Linq;
 using Firebase.Extensions;
 using Firebase.Storage;
+using Microsoft.Cci;
 using UnityEngine;
 
 public static class FirebaseStorageManager
@@ -60,6 +64,36 @@ public static class FirebaseStorageManager
                 Sprite sprite = Sprite.Create(texture, new Rect(0.0f, 0.0f, texture.width, texture.height), new Vector2(0.5f, 0.5f));
 
                 GameData.items[name].backgroundImage = sprite;
+            }
+        });
+    }
+
+    public static void DownloadFile(string fileName, string fileUrl)
+    {
+        string localUrl = "file://" + Application.dataPath + "/Addressables/" + fileName;
+        StorageReference manifestRef = FirebaseStorage.DefaultInstance.GetReferenceFromUrl("gs://connected-gaming-server.appspot.com/" + fileUrl);
+
+        manifestRef.GetFileAsync(localUrl).ContinueWithOnMainThread(task =>
+        {
+            if (task.IsFaulted && task.IsCanceled)
+                Debug.LogException(task.Exception);
+            else
+                Debug.Log("File Download");
+        });
+    }
+
+    public static void UploadFile(string fileName, string fileExtension , string fileUrl)
+    {
+        FirebaseStorage storage = FirebaseStorage.DefaultInstance;
+
+        StorageReference reference = storage.RootReference.Child("Upload/" + fileName + fileExtension);
+        string localFile = "file://" + Application.dataPath + "/" + fileUrl + "/" + fileName + fileExtension;
+
+        reference.PutFileAsync(localFile).ContinueWithOnMainThread(task =>
+        {
+            if (task.IsCompleted)
+            {
+                Debug.Log("Uploaded");
             }
         });
     }
