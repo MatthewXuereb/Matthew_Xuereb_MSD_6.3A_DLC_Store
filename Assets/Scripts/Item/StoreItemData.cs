@@ -50,6 +50,9 @@ public class StoreItemData
             GameData.numOfCoins -= price;
             GameData.coinsText.text = GameData.numOfCoins.ToString();
 
+            int currentNumOfCoins = PlayerPrefs.GetInt("NumOfCoins");
+            PlayerPrefs.SetInt("NumOfCoins", currentNumOfCoins - price);
+
             bought = true;
         }
 

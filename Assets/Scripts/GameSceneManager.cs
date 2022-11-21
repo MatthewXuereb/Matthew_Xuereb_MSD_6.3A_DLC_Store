@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
+using Unity.VisualScripting;
 
 public class GameSceneManager : MonoBehaviour
 {
@@ -49,6 +50,8 @@ public class GameSceneManager : MonoBehaviour
 
                 PlayerPrefs.SetString("Id", id);
                 PlayerPrefs.SetInt("PrivacyPolicyAccept", 0);
+                PlayerPrefs.SetInt("NumOfCoins", GameData.numOfCoins);
+
                 PlayerPrefs.Save();
             }
         }
@@ -59,9 +62,10 @@ public class GameSceneManager : MonoBehaviour
         if (SceneManager.GetActiveScene().buildIndex == 1)
         {
             GameData.coinsText = _coinsText;
+            GameData.numOfCoins = PlayerPrefs.GetInt("NumOfCoins");
 
-            _coinsText.text = GameData.numOfCoins.ToString();
-
+            _coinsText.text = PlayerPrefs.GetInt("NumOfCoins").ToString();
+            
             FirebaseStorageManager.DownloadManifest();
         }
     }
