@@ -3,7 +3,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
-using Unity.VisualScripting;
 
 public class GameSceneManager : MonoBehaviour
 {
@@ -16,7 +15,7 @@ public class GameSceneManager : MonoBehaviour
     [Tooltip("Ignore if nor in store scene"), SerializeField]
     private TextMeshProUGUI _coinsText;
 
-    void Awake()
+    void Start()
     {
         if (GameData.currentBackgroundImage != null)
             _backgroundImage.sprite = GameData.currentBackgroundImage;
@@ -33,7 +32,11 @@ public class GameSceneManager : MonoBehaviour
 
     public void LoadSceneById(int id)
     {
-        SceneManager.LoadScene(id, LoadSceneMode.Single);
+        SceneManager.LoadSceneAsync(id, LoadSceneMode.Single);
+    }
+    public void LoadSceneByName(string name)
+    {
+        SceneManager.LoadSceneAsync(name, LoadSceneMode.Single);
     }
 
     public void SetWelcomeScene()
